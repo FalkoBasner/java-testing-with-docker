@@ -1,0 +1,13 @@
+spring:
+  main:
+    banner-mode: 'off'
+  application:
+    name: my-app
+  datasource:
+    url: "jdbc:mysql://localhost/my_schema"
+    driver-class-name: "com.mysql.cj.jdbc.Driver"
+    username: "my_user"
+    password: "my_secret"
+  jpa:
+    hibernate:
+      ddl-auto: validate
